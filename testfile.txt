@@ -1,0 +1,5 @@
+int main(){
+    int a = 1;
+    int v = a * 4 * 32 * a / a / 32;
+    printf("%d", v);
+}

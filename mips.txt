@@ -1,0 +1,12 @@
+.data
+
+.text
+
+block_1:
+li $4,4
+li $v0,1
+syscall
+
+func_main_end:
+li $v0,10
+syscall

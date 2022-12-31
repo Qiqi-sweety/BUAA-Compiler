@@ -1,0 +1,6 @@
+cp testcase/testfiles-only/B/testfile3.txt testfile.txt
+cp testcase/full/B/input3.txt stdin.txt
+cp testcase/full/B/output3.txt stdout.txt
+// run
+java -jar mars.jar mips.txt nc < stdin.txt > mips_output.txt
+git diff mips_output.txt stdout.txt
